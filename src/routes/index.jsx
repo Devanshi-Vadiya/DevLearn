@@ -6,7 +6,8 @@ import DashboardLayout from '../layouts/DashboardLayout';
 import ProtectedRoute from '../components/ProtectedRoute';
 import LoadingSpinner from '../components/LoadingSpinner';
 
-// Lazy loaded pages for performancezdd
+// Lazy loaded pages for performance
+//routing
 const Home = lazy(() => import('../pages/Home'));
 const Blogs = lazy(() => import('../pages/Blogs'));
 const BlogDetail = lazy(() => import('../pages/BlogDetail'));
