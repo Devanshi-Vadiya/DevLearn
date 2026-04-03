@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --primary: #7C3AED;
+  --secondary: #A78BFA;
+  --accent: #F472B6;
+  --bg: #0F172A;
+  --card-bg: rgba(30, 41, 59, 0.75);
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0F172A;
+  color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+  background: #7C3AED;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A78BFA;
+}
+
+/* Glass morphism */
+.glass {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(167, 139, 250, 0.15);
+}
+
+.glass-strong {
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #7C3AED, #F472B6, #60A5FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient bg */
+.gradient-bg {
+  background: linear-gradient(135deg, #7C3AED 0%, #A78BFA 50%, #F472B6 100%);
+}
+
+/* Blob animations */
+@keyframes blob {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.blob {
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+  animation: blob 8s infinite ease-in-out;
+  position: absolute;
+  pointer-events: none;
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Shimmer loading */
+.shimmer {
+  background: linear-gradient(90deg, rgba(30,41,59,0) 0%, rgba(167,139,250,0.1) 50%, rgba(30,41,59,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Card hover */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 60px rgba(124, 58, 237, 0.25);
+}
+
+/* Button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #7C3AED, #A78BFA);
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.4);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid rgba(167, 139, 250, 0.5);
+  color: #A78BFA;
+  padding: 12px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: rgba(124, 58, 237, 0.15);
+  border-color: #7C3AED;
+  transform: translateY(-2px);
+}
+
+/* Category pills */
+.category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* Input styles */
+.input-glass {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(167, 139, 250, 0.25);
+  border-radius: 12px;
+  color: #F8FAFC;
+  padding: 12px 16px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.input-glass:focus {
+  border-color: #7C3AED;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+.input-glass::placeholder {
+  color: #64748B;
+}
+
+/* Page transition wrapper */
+.page-transition {
+  animation: fadeInUp 0.5s ease both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
