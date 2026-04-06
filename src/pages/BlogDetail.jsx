@@ -11,7 +11,7 @@ import BlogCard from '../components/BlogCard';
  * /blogs/1, it gets an empty HTML shell and cannot see the blog title
  * or description dynamically set below. This is the core React SEO problem.
  * react-helmet-async helps for bots that render JavaScript (like Googlebot),
- * but for other crawlers, you need SSR via Next.js or Remix.
+ * but for other crawlers, you need SSR via Next.js or Remix.zz
  */
 
 export default function BlogDetail() {
