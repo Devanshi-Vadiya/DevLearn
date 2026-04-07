@@ -28,7 +28,7 @@ export default function BlogCard({ blog, index = 0 }) {
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
-        {/* Category badge overlaid on image dbjwwh*/}
+        {/* Category badge overlaid on image */}
         <div className="absolute top-3 left-3">
           <span className={`category-pill border text-xs ${categoryColors[blog.category] || 'bg-slate-600/30 text-slate-400 border-slate-500/30'}`}>
             <Tag size={10} />
