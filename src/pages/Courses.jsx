@@ -22,7 +22,7 @@ export default function Courses() {
 
   return (
     <>
-      <Helmet>
+      <Helmet>//used for 
         <title>Courses – DevLearn | Free Coding Courses</title>
         <meta
           name="description"
