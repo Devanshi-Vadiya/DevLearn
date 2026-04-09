@@ -37,7 +37,7 @@ export default function BlogCard({ blog, index = 0 }) {
         </div>
       </div>
 
-      {/* Contentdxxxx jsnj*/} 
+      {/* Contentdxxxxdw jsnj*/} 
       <div className="p-5">
         <div className="flex items-center gap-2 mb-3">
           <img
