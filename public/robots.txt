@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow crawling of private dashboard routes (these require authentication)
+Disallow: /dashboard/
+
+# Point to the sitemap we just created
+Sitemap: https://devlearn.com/sitemap.xml
