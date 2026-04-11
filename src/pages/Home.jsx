@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { HelmetProvider, Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 import { ArrowRight, BookOpen, GraduationCap, Sparkles, TrendingUp, Code2 } from 'lucide-react';
 import { blogs } from '../data/blogs';
 import { courses } from '../data/courses';
