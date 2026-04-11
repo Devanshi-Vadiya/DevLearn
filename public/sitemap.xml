@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home -->
   <url>
     <loc>https://devlearn.com/</loc>
     <lastmod>2026-04-11</lastmod>
@@ -9,7 +8,6 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Courses listing -->
   <url>
     <loc>https://devlearn.com/courses</loc>
     <lastmod>2026-04-11</lastmod>
@@ -17,7 +15,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Blogs listing -->
   <url>
     <loc>https://devlearn.com/blogs</loc>
     <lastmod>2026-04-11</lastmod>
@@ -25,7 +22,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Instructors listing -->
   <url>
     <loc>https://devlearn.com/instructors</loc>
     <lastmod>2026-04-11</lastmod>
@@ -33,7 +29,6 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Auth pages -->
   <url>
     <loc>https://devlearn.com/login</loc>
     <changefreq>yearly</changefreq>
@@ -46,7 +41,6 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- Individual course pages (id-based routes) -->
   <url>
     <loc>https://devlearn.com/courses/1</loc>
     <lastmod>2026-04-11</lastmod>
@@ -89,7 +83,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Individual blog pages -->
   <url>
     <loc>https://devlearn.com/blogs/1</loc>
     <lastmod>2026-04-11</lastmod>
