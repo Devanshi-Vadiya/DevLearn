@@ -95,7 +95,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 Contributions, issues, and feature requests are welcome! 
 Feel free to check the [issues page](#) if you want to contribute.
-hehe
+
 <br />
 
 <div align="center">
