@@ -99,5 +99,5 @@ Feel free to check the [issues page](#) if you want to contribute.
 <br />
 
 <div align="center">
-  <sub>Built with ❤️ by Devanshi</sub>
+  <sub>Built with ❤️ by Devanshi Vadiya</sub>
 </div>
