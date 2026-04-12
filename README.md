@@ -11,11 +11,11 @@
 
 <br />
 
-## 📖 About The Project
+## 📖 About The Project  
 
 **DevLearn** is a modern, fast, and highly interactive online educational platform built with React and Vite. It serves as a unified hub where developers can find comprehensive courses, insightful articles, and connect with top instructors in fields like Web Development, AI, Data Structures, and more.
 
-## ✨ Key Features
+## Key Features
 
 - **📚 Expansive Course Catalog:** Explore premium courses ranked by popularity, rating, and student count.
 - **✍️ Tech Blog Integration:** Read the latest technical articles, tutorials, and tech news directly on the platform.
