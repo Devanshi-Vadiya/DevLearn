@@ -11,7 +11,7 @@
 
 <br />
 
-## 📖 About The Project  brpeww
+## 📖 About The Project  brpewwww
 
 **DevLearn** is a modern, fast, and highly interactive online educational platform built with React and Vite. It serves as a unified hub where developers can find comprehensive courses, insightful articles, and connect with top instructors in fields like Web Development, AI, Data Structures, and more.
 
